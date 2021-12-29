@@ -1,0 +1,36 @@
+[naverpost]
+title = "네이버 포스트 ─ 미러볼뮤직"
+url = "https://m.post.naver.com/my.naver?memberNo=6236239"
+entrySelector = "ul.lst_feed li._cds.check_visible"
+titleSelector = "strong.tit_feed.ell"
+linkSelector = "div.text_area a.link_end"
+imageSelector = "div.image_area a img"
+contentSelector = "p.text_feed.ell"
+waitUntil = "networkidle"
+
+[naverpost_releases]
+title = "미러볼뮤직 ─ RELEASES"
+url = "https://m.post.naver.com/my/series/detail.naver?seriesNo=568967&memberNo=6236239"
+entrySelector = "#el_list_container ul ul li"
+titleSelector = "div.spot_post_name span.ell"
+linkSelector = "a[href]"
+imageSelector = "img"
+contentSelector = "span.writer_name"
+
+[naverpost_features]
+title = "미러볼뮤직 ─ Mirrorball Music Features"
+url = "https://m.post.naver.com/my/series/detail.naver?seriesNo=572106&memberNo=6236239"
+entrySelector = "#el_list_container ul ul li"
+titleSelector = "div.spot_post_name span.ell"
+linkSelector = "a[href]"
+imageSelector = "img"
+contentSelector = "span.writer_name"
+
+[naverpost_special]
+title = "미러볼뮤직 ─ Music Special"
+url = "https://m.post.naver.com/my/series/detail.naver?seriesNo=568968&memberNo=6236239"
+entrySelector = "#el_list_container ul ul li"
+titleSelector = "div.spot_post_name span.ell"
+linkSelector = "a[href]"
+imageSelector = "img"
+contentSelector = "span.writer_name"
